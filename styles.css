@@ -1,0 +1,84 @@
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(24, 16, 16, 0.5),rgba(25, 19, 19, 0.5),rgba(45, 23, 23, 0.5),rgba(86, 36, 36, 0.5)),url(bg-img.jpg);
+    background-size: cover ;
+}
+.bebas-neue-regular {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+
+nav{
+    width: 100%;
+    height: 100px;
+    color: #ffff;
+    display: flex;
+    justify-content: space-around; 
+    align-items: center;
+}
+
+
+.logo{
+    font-size: 2rem;
+    letter-spacing: 2px;
+}
+.menu a{
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 20px;
+}
+.menu a:hover{
+    border: 1px solid green;
+    background: transparent;
+}
+.register a{
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 20px;
+    background: green;
+    border-radius: 15px;
+}
+.register a:hover{
+    border: 1px solid green;
+    background: transparent;
+}
+.h-text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    max-width: 650px;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    color: #fff;
+}
+.h-text span{
+    letter-spacing: 5px;
+}
+.h-text h1{
+    font-size: 3.5rem;
+}
+.h-text a{
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 20px;
+    background: green;
+    border-radius: 15px;
+    letter-spacing: 5px;
+    transition: 0.4s;
+}
+.h-text a:hover{
+    border: 1px solid green;
+    background: transparent;
+}
