@@ -1,0 +1,44 @@
+body{
+    background-color: rgb(206, 137, 33)
+}
+.container{
+    text-align: center;
+    background: gray;
+    width: 450px;
+    height: 350px;
+    margin: auto;
+    margin-top: 140px;
+    border-radius: 20px;
+    box-shadow: 1px 1px 1px 2px rgb(64, 55, 164);
+}
+h1{
+    padding: 30px;
+    font-family: sans-serif;
+    color: rgb(68, 58, 78);
+}
+input{
+    width: 110px;
+    padding: 8px;
+}
+select{
+    width: 110px;
+    padding: 8px;
+}
+button{
+    padding: 10px;
+    margin-top: 30px;
+    border: none;
+    width: 100px;
+    border-radius: 20px;
+    background-color: rgb(183, 183, 39);
+    color: rgb(49, 39, 39);
+    cursor: pointer;
+}
+#result{
+    padding: 10px;
+    color: rgb(49, 39, 39);
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
